@@ -93,6 +93,11 @@ body {
 
 .contact-info__block--center {
     justify-content: center;
+    position: relative;
+}
+
+.avatar--position {
+    position: absolute;
 }
 
 .contact-info__item {
@@ -129,6 +134,8 @@ body {
     object-fit: cover;
     border: 3px solid;
     border-color: var(--text-decoration-color);
+    cursor: pointer;
+    transition: 200ms linear;
 }
 
 .intro {
